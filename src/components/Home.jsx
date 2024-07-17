@@ -331,15 +331,16 @@ const Home = () => {
       <div className="flex justify-center py-5">
         <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-between items-start gap-4 p-5">
           <div className="w-full lg:w-1/2 p-5">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7773.244143178587!2d80.24817438655302!3d13.059711350435744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526715fbeeff8f%3A0xa06f234699827541!2sGems%20road%20chennai!5e0!3m2!1sen!2sin!4v1720004549356!5m2!1sen!2sin"
-              width="100%"
-              height="280"
-              style={{ border: "0" }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <iframe
+        title="Gems Road Chennai Map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7773.244143178587!2d80.24817438655302!3d13.059711350435744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526715fbeeff8f%3A0xa06f234699827541!2sGems%20road%20chennai!5e0!3m2!1sen!2sin!4v1720004549356!5m2!1sen!2sin"
+        width="100%"
+        height="280"
+        style={{ border: "0" }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
             <p className="text-gray-700 mt-4">
               Location: Greams road, Thousand light, Chennai.
             </p>
